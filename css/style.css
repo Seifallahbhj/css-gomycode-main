@@ -1,0 +1,323 @@
+/* Extra small devices */
+@media (max-width: 576px) {
+  body {
+    background-color: rgb(245, 245, 242);
+    font-family: "Sora", Sans-serif;
+    letter-spacing: 1px;
+  }
+  header {
+    background-color: #fffaf3;
+    position: sticky;
+    top: 0;
+    padding: 10px 60px;
+    border-bottom: 0.5px solid rgb(231, 226, 226);
+  }
+  .flex-s {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .liste1,
+  .liste2 {
+    display: none;
+  }
+  .num-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  .titre {
+    font-family: "Sora", Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    padding: 0;
+    margin: 0;
+  }
+  .parag {
+    width: 100%;
+    line-height: 25px;
+    font-weight: bold;
+  }
+  .btn {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    min-height: 40px;
+    padding: 2px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+  .btn:hover {
+    width: 300px;
+  }
+  .num2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  .titre2 {
+    font-family: "Sora", Sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .paragraphe {
+    margin: 0;
+    font-weight: bold;
+    color: #0f0f0f;
+    font-size: 18px;
+
+    max-width: 789px;
+  }
+  .liste3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 30px;
+    list-style: none;
+    gap: 10px;
+    width: 100%;
+    font-size: 18px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px) {
+  body {
+    background-color: rgb(245, 245, 242);
+    font-family: "Sora", Sans-serif;
+    letter-spacing: 1px;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    padding: 10px 60px;
+    border-bottom: 0.5px solid rgb(231, 226, 226);
+    background-color: rgb(245, 245, 242);
+  }
+  .formation-links,
+  .pays-links,
+  .lang-grp > a {
+    display: none;
+  }
+  .flex-d {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .liste1,
+  .liste2 {
+    list-style: none;
+    gap: 20px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+  }
+  .liste2 {
+    margin-right: 80px;
+  }
+  .groupe2 {
+    margin-right: 70px;
+  }
+  .logo {
+    margin-top: 9px;
+  }
+  .groupe1:hover .formation-links,
+  .groupe2:hover .pays-links,
+  .lang-grp:hover > a {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: inset 0px 8px 16px 0px rgba(200, 196, 196, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    width: 100px;
+    background-color: #f2efe6;
+    margin-top: 20px;
+  }
+  .formation-links a,
+  .pays-links a,
+  .lang-grp > a {
+    margin: 10px;
+  }
+  .num-1 {
+    flex-direction: column;
+
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .titre {
+    font-family: "Sora", Sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 85px;
+    padding: 0;
+    margin: 0;
+  }
+  .parag {
+    width: 420px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+  }
+  .btn {
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+    min-height: 40px;
+    padding: 2px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+  .btn:hover {
+    width: 300px;
+  }
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 30%;
+    border: 1px solid rgb(193, 191, 191);
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .btn-1 {
+    color: white;
+    background-color: rgb(33, 84, 33);
+    border-radius: 20px;
+    width: 110px;
+    font-weight: bold;
+    height: 25px;
+    border-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .card > div {
+    background-image: url(/images/Rectangle-4748.png);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+  .section2 {
+    background-color: white;
+    border-radius: 15px;
+  }
+  .card a {
+    font-size: 20px;
+  }
+  .card p {
+    color: #000000;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .card > button {
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .num2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  .titre2 {
+    font-size: 45px;
+    line-height: 80px;
+    margin: 0;
+    font-weight: bold;
+  }
+  .paragraphe {
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    color: #0f0f0f;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 789px;
+  }
+  .liste3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 30px;
+    list-style: none;
+    gap: 70px;
+    width: 730px;
+    font-size: 18px;
+  }
+  .part3 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    align-items: center;
+    gap: 51px;
+    background-color: #f2efe6;
+    height: 80px;
+    border-radius: 20px;
+  }
+  .btn-cs {
+    background-color: #a459ff;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    line-height: 20px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    padding: 2px 7px;
+  }
+  .part3 div:hover {
+    color: #a459ff;
+    cursor: pointer;
+  }
+}
